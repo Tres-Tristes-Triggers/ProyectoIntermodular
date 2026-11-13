@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gestionpla
+  datasource:
+    url: jdbc:postgresql://postgres:5432/turnos_db
+    username: turnos_user
+    password: turnos_dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
